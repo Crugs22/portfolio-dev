@@ -22,9 +22,9 @@
 
     /* font */
     --font-family: 'Asap', sans-serif;
-    --text-lg: bold 56px/120% var(--font-family);
-    --text-md: bold 24px/120% var(--font-family);
-    --text-sm: bold 16px/120% var(--font-family);
+    --title-lg: bold 56px/120% var(--font-family);
+    --title-md: bold 24px/120% var(--font-family);
+    --title-sm: bold 16px/120% var(--font-family);
     
     --font-family-inco: 'Inconsolata', sans-serif;
     --subtitle: 20px/120% var(--font-family-inco);
@@ -32,9 +32,33 @@
     --font-family-maven: 'Maven Pro', sans-serif;
     --text-md-maven: 16px/140% var(--font-family-maven);
     --text-sm-maven: 14px/140% var(--font-family-maven);
+
+    scroll-behavior: smooth;
+
 }
 
 .container {
+    margin: 0 auto;
     max-width: 1366px;
-    max-height: 750px;
+}
+
+body {
+    background-image: url(../assets/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: var(--gray-200);
+}
+
+main {
+    padding-block: 72px ;
+    padding-inline: 164px;
+    background-color: var(--gray-200);
+}
+
+.card {
+    display: grid;
+}
+
+.gap-16 {
+    gap: 16px;
 }
