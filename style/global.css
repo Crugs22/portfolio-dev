@@ -42,6 +42,17 @@
     max-width: 1366px;
 }
 
+.bg-color {
+    background-color: var(--gray-100);
+    padding-inline: 120px;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    target: _blank;
+}
+
 body {
     background-image: url(../assets/Background_Intro.png);
     background-repeat: no-repeat;
@@ -55,10 +66,21 @@ main {
     background-color: var(--gray-200);
 }
 
+#three {
+    margin: 0 auto;
+    background-image: url(../assets/Background_Contacts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .card {
     display: grid;
 }
 
 .gap-16 {
     gap: 16px;
+}
+
+.gap-24 {
+    gap: 24px;
 }
